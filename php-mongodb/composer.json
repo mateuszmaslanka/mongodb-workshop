@@ -1,0 +1,13 @@
+{
+    "name": "php/mongo",
+    "type": "library",
+    "description": "MongoDB",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "mongodb/mongodb": "1.4.*"
+    },
+    "autoload": {
+        "psr-4": {"App\\PhpMongoDB\\": "src/"}
+    }
+}
